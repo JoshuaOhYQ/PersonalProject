@@ -5,8 +5,9 @@ import sys
 pygame.init()
 
 # Screen setup
-screen = pygame.display.set_mode((600, 400))
-pygame.display.set_caption("Grammar Game")
+screen = pygame.display.set_mode((500, 720))
+pygame.display.set_caption("Tatabahasa")
+
 
 # Fonts & Colors
 font = pygame.font.Font(None, 40)
