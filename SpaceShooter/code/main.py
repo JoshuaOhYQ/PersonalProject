@@ -14,9 +14,7 @@ surf.fill('darkblue')
 x = 100
 
 #Import images
-player_surf = pygame.image.load('../images/player.png')
-
-
+player_surf = pygame.image.load('SpaceShooter/images/player.png')
 
 
 while running:
@@ -28,7 +26,7 @@ while running:
     #Game Drawing
     x += 0.1
     display_surface.fill('gray')
-    display_surface.blit(surf, (x, 150))
+    display_surface.blit(player_surf, (x, 150))
     pygame.display.update()
 
 
