@@ -42,7 +42,8 @@ while running:
 
     if player_rect.right < WINDOW_WIDTH:
        player_rect.left += 0.2   
-    
+
+
     display_surface.blit(meteor_surf, meteor_rect)
     display_surface.blit(player_surf, player_rect)
     display_surface.blit(laser_surf, laser_rect)
